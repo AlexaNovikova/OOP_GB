@@ -1,5 +1,7 @@
 package ru.novikova.seminar1;
 
+import java.util.Objects;
+
 public class BottleOfWater extends Product {
     private int volume;
 
@@ -28,17 +30,14 @@ public class BottleOfWater extends Product {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (!(o instanceof BottleOfWater)) {
-            return false;
-        }
+        if (this == o) return true;
+        if (!(o instanceof BottleOfWater that)) return false;
+        if (!super.equals(o)) return false;
+        return getVolume() == that.getVolume();
+    }
 
-        BottleOfWater that = (BottleOfWater) o;
-
-        return super.getName().equalsIgnoreCase(that.getName())
-               && super.getCost() == that.getCost()
-               && getVolume() == that.getVolume();
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getVolume());
     }
 }

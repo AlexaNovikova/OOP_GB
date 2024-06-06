@@ -1,5 +1,7 @@
 package ru.novikova.seminar1;
 
+import java.util.Objects;
+
 public class HotDrink extends BottleOfWater{
     private int temperature;
 
@@ -14,6 +16,19 @@ public class HotDrink extends BottleOfWater{
 
     public void setTemperature(int temperature) {
         this.temperature = temperature;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof HotDrink hotDrink)) return false;
+        if (!super.equals(o)) return false;
+        return getTemperature() == hotDrink.getTemperature();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(),getTemperature());
     }
 
     @Override

@@ -26,6 +26,7 @@ public class HotDrink extends BottleOfWater{
         return getTemperature() == hotDrink.getTemperature();
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(),getTemperature());

@@ -1,12 +1,11 @@
-package ru.novikova.senimar5.controller;
+package ru.novikova.seminar5.controller;
 
 
-import ru.novikova.senimar5.data.Student;
-import ru.novikova.senimar5.data.Type;
-import ru.novikova.senimar5.data.User;
-import ru.novikova.senimar5.service.DataService;
-import ru.novikova.senimar5.service.StudentGroupService;
-import ru.novikova.senimar5.view.StudentView;
+import ru.novikova.seminar5.data.Student;
+import ru.novikova.seminar5.data.Type;
+import ru.novikova.seminar5.service.DataService;
+import ru.novikova.seminar5.service.StudentGroupService;
+import ru.novikova.seminar5.view.StudentView;
 
 import java.util.List;
 

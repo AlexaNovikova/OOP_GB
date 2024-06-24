@@ -1,9 +1,9 @@
-package ru.novikova.senimar5.service;
+package ru.novikova.seminar5.service;
 
-import ru.novikova.senimar5.data.Student;
-import ru.novikova.senimar5.data.Teacher;
-import ru.novikova.senimar5.data.Type;
-import ru.novikova.senimar5.data.User;
+import ru.novikova.seminar5.data.Student;
+import ru.novikova.seminar5.data.Teacher;
+import ru.novikova.seminar5.data.Type;
+import ru.novikova.seminar5.data.User;
 
 import java.util.ArrayList;
 import java.util.List;

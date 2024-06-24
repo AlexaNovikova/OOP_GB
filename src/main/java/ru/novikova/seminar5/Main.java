@@ -1,6 +1,6 @@
-package ru.novikova.senimar5;
+package ru.novikova.seminar5;
 
-import ru.novikova.senimar5.controller.Controller;
+import ru.novikova.seminar5.controller.Controller;
 
 public class Main {
     public static void main(String[] args) {

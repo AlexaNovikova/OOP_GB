@@ -1,4 +1,4 @@
-package ru.novikova.senimar5.data;
+package ru.novikova.seminar5.data;
 
 public class Teacher extends User {
     private int teacherId;

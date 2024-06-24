@@ -1,6 +1,6 @@
-package ru.novikova.senimar5.view;
+package ru.novikova.seminar5.view;
 
-import ru.novikova.senimar5.data.Student;
+import ru.novikova.seminar5.data.Student;
 
 public class StudentView {
     public void printOnConsole(Student student){
